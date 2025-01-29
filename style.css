@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #0078D7;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#powerbi-container {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+button {
+    background: #0078D7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}

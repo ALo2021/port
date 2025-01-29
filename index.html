@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Power BI Dashboard</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Embedded Power BI Report</h2>
+            <div id="powerbi-container"></div>
+        </section>
+
+        <section>
+            <h2>Live Python Data</h2>
+            <button onclick="fetchData()">Load Data</button>
+            <pre id="data-output"></pre>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
